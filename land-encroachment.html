@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land Encroachment Detection - Roshaan Ahmed</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Roshaan Ahmed</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Detail Section -->
+    <section class="project-detail">
+        <div class="container">
+            <div class="project-header">
+                <a href="index.html#projects" class="back-link">
+                    <i class="fas fa-arrow-left"></i> Back to Projects
+                </a>
+                <h1 class="project-title">Land Encroachment Detection</h1>
+                <p class="project-subtitle">AI-Powered Land Use Monitoring System</p>
+            </div>
+
+            <div class="project-content">
+                <!-- Video Section -->
+                <div class="project-video">
+                    <video controls class="demo-video">
+                        <source src="linnkkkkkeeddddinnnn.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <!-- Project Info -->
+                <div class="project-info">
+                    <div class="project-description">
+                        <h2>Project Overview</h2>
+                        <p>
+                            A web-based AI-powered system for detecting land encroachment by comparing user-submitted 
+                            Google Maps images with official approved sitemaps. This project leverages YOLOv8m segmentation 
+                            and template matching to automatically highlight unauthorized construction and assist urban 
+                            planners with scalable, accurate analysis.
+                        </p>
+                        
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Upload Google Maps image and official sitemap</li>
+                            <li>Semantic segmentation with YOLOv8m</li>
+                            <li>Template matching and cosine similarity for mask comparison</li>
+                            <li>Automatic detection and highlight of encroachments</li>
+                            <li>Visual comparison and output rendering</li>
+                            <li>Login/Authentication system with SQLite</li>
+                            <li>Admin/user separation for secure access</li>
+                        </ul>
+
+                        <h3>Performance Metrics</h3>
+                        <ul>
+                            <li>Segmentation mAP: 89%</li>
+                            <li>Precision: 87% | Recall: 85.6% | F1 Score: 86%</li>
+                            <li>Template Matching Accuracy: 90%</li>
+                            <li>Overall System Accuracy: 89%</li>
+                        </ul>
+                    </div>
+
+                    <div class="tech-stack">
+                        <h3>Technologies Used</h3>
+                        <div class="tech-grid">
+                            <span class="tech-item">TensorFlow</span>
+                            <span class="tech-item">OpenCV</span>
+                            <span class="tech-item">YOLO</span>
+                            <span class="tech-item">Flask</span>
+                            <span class="tech-item">Python</span>
+                            <span class="tech-item">SQLite</span>
+                            <span class="tech-item">HTML/CSS/JS</span>
+                            <span class="tech-item">Ultralytics</span>
+                        </div>
+                    </div>
+
+                    <!-- GitHub Link -->
+                    <div class="github-section">
+                        <a href="https://github.com/roshaanahmed209/Encroachment-Detection-using-Computer-Vision" target="_blank" class="github-btn">
+                            <i class="fab fa-github"></i>
+                            View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Roshaan Ahmed. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
