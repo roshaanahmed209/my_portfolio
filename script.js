@@ -122,6 +122,7 @@ if (contactForm) {
             from_name: name,
             from_email: email,
             message: message,
+            time: new Date().toLocaleString(),
             to_email: 'roshaanahmed290@gmail.com'
         };
         
