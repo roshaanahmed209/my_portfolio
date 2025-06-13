@@ -125,7 +125,7 @@ if (contactForm) {
             to_email: 'roshaanahmed290@gmail.com'
         };
         
-        emailjs.send('service_h114ab9', 'template_xkli3at', templateParams)
+        emailjs.send('service_h114ab9', 'template_343afft', templateParams)
             .then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
                 showNotification('Thank you for your message! I\'ll get back to you soon.', 'success');
